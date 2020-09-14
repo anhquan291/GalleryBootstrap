@@ -1,0 +1,47 @@
+/*Import fonts*/
+@font-face {
+  font-family: AmostelySignature;
+  src: url(/fonts/AmostelySignature.ttf);
+}
+:root {
+  --primary-color: #ff817e;
+  --gray-dark: #384147;
+  --gray-light: #888;
+  --white: white;
+  --black: black;
+  --bg-block: #fff9f8;
+  --logo-font: "AmostelySignature";
+  --sub--heading: "Playfair Display SC", serif;
+  --primary-font: "Roboto", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  color: var(--gray-dark);
+  background-color: var(--white);
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: var(--wrapper);
+  margin-left: auto;
+  margin-right: auto;
+}
+strong {
+  font-weight: bold;
+}
